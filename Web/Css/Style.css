@@ -1,0 +1,11 @@
+﻿body { padding:0px; margin:0px; border:0px; font-family:微软雅黑
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+
+.clear { clear:both; }
+
