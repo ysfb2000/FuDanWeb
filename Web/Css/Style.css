@@ -7,5 +7,5 @@ ol,ul {list-style:none;}
 li{list-style-type:none;}
 img{vertical-align:top;border:0;}
 
-.clear { clear:both; }
+.clear { clear:both; width:0px; height:0px;}
 
