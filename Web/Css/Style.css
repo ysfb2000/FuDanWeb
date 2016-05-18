@@ -70,3 +70,31 @@ a.blackHref:active {text-decoration : none ;color : #FFF;}
 .contactUs_content { margin-top:160px; width:500px; margin-left:auto; margin-right:auto; margin-bottom:190px; overflow:hidden;}
 .contactUs_content ul { margin-left:20px; line-height:28px; }
 .contactUs_content div { float:left; }
+
+.orderDetails_content { border:2px solid #e1e1e1; width:600px; margin-left:auto; margin-right:auto; margin-top:30px; padding:35px; margin-bottom:50px;  }
+.orderDetails_ul { font-size:18px; overflow:hidden; }
+.orderDetails_pic { border:5px solid #a78c2c; }
+.orderDetails_case { margin-top:30px; float:left; }
+.orderDetails_price { margin-top:30px; float:right; font-size:14px; color:#a78c2c; }
+.moneyMark { font-size:12px; margin-left:5px; }
+.orderDetails_money { font-size:18px; margin-left:5px; }
+.orderDetails_class { margin-top:8px; float:left; color:#6b6a6a; *margin-top:-15px; }
+.orderDetails_class_li { margin-top:8px; float:left; margin-left:10px; color:#6b6a6a; *margin-top:-15px; }
+.orderDetails_className { color:#6b6a6a; float:left; margin-top:28px; }
+.orderDetails_underline { color:#6b6a6a; margin-top:28px; border-bottom:1px solid #868686; float:left; width:500px; height:22px; }
+.orderDetails_bill { color:#6b6a6a; float:left; margin-top:8px; }
+.orderDetails_total { float:right; margin-top:30px; color:#a78c2c; font-size:14px; }
+.orderDetails_text { float:right; margin-top:30px; margin-right:50px; font-size:14px; color:#a78c2c; line-height:24px; }
+.orderDetails_buttonArea { margin-left:auto; margin-right:auto; width:180px; margin-top:50px; }
+.orderDetails_button { height:30px; font-size:18px; border:none; background-color:#ddd2ab; }
+
+.news_content { margin-top:50px; width:500px; margin-left:auto; margin-right:auto; margin-bottom:190px; overflow:hidden; }
+.news_content_list { width:500px; margin-top:40px; }
+.news_content_listItemA { padding:5px; padding-left:20px; background-color:#e2e2e2; }
+.news_content_listItemB { padding:5px; padding-left:20px; background-color:#f7f7f7; }
+.news_content_list_date { float:left; width:100px; color:#a98e2c; }
+.news_content_list_text { float:left; width:300px; }
+
+.pageContainer { float:right; margin-top:50px; }
+.pageContainer li { float:left; margin-left:20px;}
+
