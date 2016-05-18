@@ -8,6 +8,12 @@ img{vertical-align:top;border:0;}
 .clear { clear:both; width:0px; height:0px;}
 .main { width:1400px; height:782px; margin:auto; }
 
+/*超链接*/
+a.blackHref:link {text-decoration : none ;color : #000; }
+a.blackHref:visited {text-decoration : none ;color : #000;}
+a.blackHref:hover {text-decoration : none ;color : #FFF;}
+a.blackHref:active {text-decoration : none ;color : #FFF;}
+
 /*Top Banner*/
 .topBar { background-color:#888888; height:70px; }
 .logo1 { float:left; margin-left:60px; margin-top:15px; }
