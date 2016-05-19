@@ -41,6 +41,10 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .bottomBanner_text ul li { float:left; }
 .bottomBanner_rights { margin-top:5px; color:#fff; }
 
+/*分页样式*/
+.pageContainer { float:right; margin-top:50px; overflow:hidden;}
+.pageContainer li { float:left; margin-left:20px;}
+
 /*标题区*/
 .mainContent {  }
 .topicArea { margin-top:60px; margin-left:140px; overflow:hidden; }
@@ -76,6 +80,7 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .contactUs_content ul { margin-left:20px; line-height:28px; }
 .contactUs_content div { float:left; }
 
+/*订单详情*/
 .orderDetails_content { border:2px solid #e1e1e1; width:600px; margin-left:auto; margin-right:auto; margin-top:30px; padding:35px; margin-bottom:50px;  }
 .orderDetails_ul { font-size:18px; overflow:hidden; }
 .orderDetails_pic { border:5px solid #a78c2c; }
@@ -93,6 +98,7 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .orderDetails_buttonArea { margin-left:auto; margin-right:auto; width:180px; margin-top:50px; }
 .orderDetails_button { height:30px; font-size:18px; border:none; background-color:#ddd2ab; }
 
+/*案例动态*/
 .news_content { margin-top:50px; width:500px; margin-left:auto; margin-right:auto; margin-bottom:50px; overflow:hidden; }
 .news_content_list { width:500px; margin-top:40px; }
 .news_content_listItemA { padding:5px; padding-left:20px; background-color:#e2e2e2; }
@@ -100,9 +106,7 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .news_content_list_date { float:left; width:100px; color:#a98e2c; }
 .news_content_list_text { float:left; width:300px; }
 
-.pageContainer { float:right; margin-top:50px; }
-.pageContainer li { float:left; margin-left:20px;}
-
+/*案例详情*/
 .newsDetail_content { margin-top:30px; margin-bottom:90px; }
 .newsDetail_title { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto;  text-align:center; width:600px; }
 .newsDetail_date { font-size:14px; margin-left:auto; margin-right:auto; text-align:center; margin-top:10px; width:600px; }
@@ -112,8 +116,10 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .newsDetail_text_pic { margin-top:30px; width:600px; text-align:center; margin-bottom:30px; }
 .newsDetail_text_picText { margin-top:10px; }
 .newsDetail_other { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto; margin-top:80px; width:600px; }
+.newsDetail_other_left { font-size:20px; color:#a78c2c; margin-top:80px; width:600px; }
 .newsDetail_content ul { margin-left:auto; margin-right:auto; margin-top:20px; width:600px; line-height:30px; }
 
+/*最新案例*/
 .lastestCases_block { margin-bottom:80px;}
 .lastestCases_content { margin-left:140px; margin-top:70px; width:1100px; }
 .lastestCases_infoLeft { width:800px; float:left; }
@@ -123,11 +129,9 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .lastestCases_ul { margin-top:40px; line-height:30px; }
 .lastestCases_infoItem { float:left; width:100px; }
 .lastestCases_infoValue { float:left; width:300px; }
-
 .lastestCases_ul2 { margin-top:40px; line-height:30px; width:600px; overflow:hidden; font-size:18px; color:#6b6a6a;}
 .lastestCases_infoItem2 { float:left; width:100px; }
 .lastestCases_infoValue2 { float:left; width:500px; }
-
 .lastestCases_infoRight { width:200px; float:left; }
 .download { overflow:hidden;}
 .download div { float:left;}
@@ -136,3 +140,32 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .lastestCases_note_text { line-height:33px; margin-top:10px; }
 .lastestCases_hr { width:100%; border:1px solid #a58a2c; margin-top:60px; margin-bottom:60px; }
 
+/*案例搜索*/
+.search_content { margin-left:140px; margin-top:70px; width:1100px; margin-bottom: 80px; }
+.search_criteriaTitle { float:left; width:100px; color:#a58a2c; margin-bottom:30px; }
+.search_criteriaContent { float:left; width:990px;  margin-bottom:30px; line-height:25px;}
+.checkBox {margin-top:5px;}
+.search_list { overflow:hidden; }
+.search_criteria_li {float:left; margin-right: 30px;}
+.search_result { width:100%; text-align:center; margin-top:30px; margin-bottom:50px; }
+.search_listBox { border-bottom:1px solid #020202; padding-left:30px; padding-bottom:10px; margin-bottom:30px; overflow:hidden; }
+.search_book { float:left; padding-top:5px; }
+.search_listContent { float:left; width:500px; margin-left:20px; color:#7f7e7e; line-height:30px; }
+.search_listName { font-size:25px; color:black; margin-bottom:10px; }
+
+/*案例学习*/
+.study_content { margin-left:140px; margin-top:70px; width:1100px; overflow:hidden; margin-bottom:60px;}
+.study_box { width:240px; float:left;  margin-right:30px; margin-bottom:30px; overflow:hidden; }
+.study_unread { position:relative; top:-180px; left:95px; background-image:url('../Images/unreadFlag.png'); background-repeat:no-repeat; width:80px; height:54px; padding-left:30px; padding-top:5px; }
+.study_read { position:relative; top:-180px; left:95px; background-image:url('../Images/readFlag.png'); background-repeat:no-repeat; width:80px; height:54px;  padding-left:30px; padding-top:5px;  }
+.study_box ul { margin-top:-30px; line-height:30px; }
+.study_hr {border-bottom:1px solid #ccc;  margin-top:10px; margin-bottom:40px; width:100%;}
+
+/*案例知识*/
+.knowledge_content { margin-left:140px; margin-top:70px; width:1100px; overflow:hidden; margin-bottom:60px; }
+.knowledge_box { width:330px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
+.knowledge_box ul { margin-top:10px; line-height:30px;  }
+.knowledge_box_pic { border-bottom:3px solid #a78c2c; }
+.knowledge_box_title { width:280px; height: 60px; }
+.knowledge_box_name { color:#d8d7d7; font-style:italic; width:300px; }
+.knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:14px; padding-top:10px; padding-bottom:10px; }
