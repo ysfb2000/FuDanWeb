@@ -19,6 +19,11 @@ a.blackHref2:visited {text-decoration : none ;color : #000;}
 a.blackHref2:hover {text-decoration : none ;color : #888;}
 a.blackHref2:active {text-decoration : none ;color : #888;}
 
+a.whiteHref:link {text-decoration : none ;color : #fff; }
+a.whiteHref:visited {text-decoration : none ;color : #fff;}
+a.whiteHref:hover {text-decoration : none ;color : #fff;}
+a.whiteHref:active {text-decoration : none ;color : #fff;}
+
 /*Top Banner*/
 .topBar { background-color:#888888; height:70px; }
 .logo1 { float:left; margin-left:60px; margin-top:15px; }
@@ -167,5 +172,47 @@ a.blackHref2:active {text-decoration : none ;color : #888;}
 .knowledge_box ul { margin-top:10px; line-height:30px;  }
 .knowledge_box_pic { border-bottom:3px solid #a78c2c; }
 .knowledge_box_title { width:280px; height: 60px; }
-.knowledge_box_name { color:#d8d7d7; font-style:italic; width:300px; }
+.knowledge_box_name { color:#888; font-style:italic; width:300px; }
 .knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:14px; padding-top:10px; padding-bottom:10px; }
+
+/*案例知识详细页*/
+.knowledgeDetail_content { margin-top:100px; margin-bottom:90px; width:800px; margin-left:auto; margin-right:auto;  }
+.knowledgeDetail_text_pic { width:600px; margin-bottom:30px; }
+.knowledgeDetail_title { font-size:30px; color:#a88d2c; margin-top:80px; }
+.knowledgeDetail_author { font-size:20px; color:#6b6a6a; font-style:italic; margin-top:10px; margin-bottom:40px; }
+.knowledgeDetail_hr { width:100%; border-bottom:1px solid #ccc; }
+.knowledgeDetail_text { margin-left:auto; margin-right:auto; line-height:30px; padding:15px; color:#0e050a;}
+.knowledgeDetail_other { font-size:20px; color:#a78c2c;  margin-top:50px;  }
+.knowledgeDetail_content ul {  margin-top:10px;  line-height:30px; }
+
+/*个人中心*/
+.myLibrary_content { margin-top:100px; margin-bottom:90px; width:800px; margin-left:auto; margin-right:auto;  }
+.myLibrary_box { margin-bottom:40px; }
+.myLibrary_boxTitle { width:100%; border-bottom:1px solid #ccc; color:#a88d2c; padding-bottom:10px; }
+.myLibrary_box ul {padding-top:10px; overflow:hidden;}
+.myLibrary_box ul li { float:left;}
+.myLibrary_date { width:150px; }
+.myLibrary_casename { width:150px; }
+.myLibrary_author { width:400px; }
+.myLibrary_more { text-align:right; margin-top:20px; margin-right:60px; }
+.myLibrary_button { width:50px; height:23px; font-size:18px; border:none; background-color:#ddd2ab; }
+
+/*关于我们*/
+.about_content { margin-top:100px; margin-bottom:100px; width:800px; margin-left:auto; margin-right:auto; }
+.about_pic {overflow:hidden;}
+.about_pic img { float:left; margin-right:20px;}
+.about_text { margin-top:60px;}
+
+.submission_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
+.submission_text { margin-top:60px; margin-left:auto; margin-right:auto;  line-height:28px; }
+.submission_content ul { margin-top:30px; overflow:hidden; }
+.submission_content ul li { float:left; }
+.submission_icon { width:30px; text-align:center; margin-right:10px; }
+
+.coopertation_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
+.coopertation_title { width: 100px; }
+.coopertation_input { width: 400px;}
+.coopertation_inputStyle { border:none; border-bottom:1px solid black; width:100%; height:20px; font-size:16px; }
+.coopertation_content ul { margin-top:10px; overflow:hidden; }
+.coopertation_content ul li { float:left; }
+.coopertation_submit { background-image:url('../Images/submit.png'); width:100px; height:32px; border:none; }
