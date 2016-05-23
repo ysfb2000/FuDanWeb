@@ -203,12 +203,14 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .about_pic img { float:left; margin-right:20px;}
 .about_text { margin-top:60px;}
 
+ /*我要投稿*/
 .submission_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
 .submission_text { margin-top:60px; margin-left:auto; margin-right:auto;  line-height:28px; }
 .submission_content ul { margin-top:30px; overflow:hidden; }
 .submission_content ul li { float:left; }
 .submission_icon { width:30px; text-align:center; margin-right:10px; }
 
+/*我要合作*/
 .coopertation_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
 .coopertation_title { width: 100px; }
 .coopertation_input { width: 400px;}
