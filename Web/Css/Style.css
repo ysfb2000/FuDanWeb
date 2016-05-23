@@ -1,5 +1,5 @@
 ﻿/*通用*/
-body { padding:0px; margin:0px; border:0px; font-family:微软雅黑}
+body { padding:0px; margin:0px; border:0px; font-family:微软雅黑; font-size:14px;}
 div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
 table,td,tr,th{font-size:12px;}
 ol,ul {list-style:none;}
@@ -62,8 +62,8 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .mainPic_left { float:left; width:996px; overflow:hidden; }
 .mainPic_left ul { margin-top:360px; margin-left:150px; }
 .mainPic_left ul li { float:left; }
-.caseSearchDiv { background-image:url('../Images/magnifier.gif'); width:357px; height:35px; }
-.caseSearchInput { width:320px; height:31px; border:none; margin-top:2px; margin-left:2px; }
+.caseSearchDiv { background-image:url('../Images/magnifier.png'); width:357px; height:35px; background-repeat:no-repeat; background-position:325px,2px; background-color:white;  border:1px solid #8c8c8c;}
+.caseSearchInput { width:320px; height:31px; border:none; margin-top:2px; margin-left:2px; outline:none; background:none; }
 .mainPic_right { float:left; width:330px; }
 .mainPic_right_home1 { margin-left:10px; margin-top:50px; }
 .mainPic_right_home2 { margin-left:10px; margin-top:150px; }
@@ -104,12 +104,12 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .orderDetails_button { height:30px; font-size:18px; border:none; background-color:#ddd2ab; }
 
 /*案例动态*/
-.news_content { margin-top:50px; width:500px; margin-left:auto; margin-right:auto; margin-bottom:50px; overflow:hidden; }
+.news_content { margin-top:50px; width:400px; margin-left:450px;  margin-bottom:50px; overflow:hidden; }
 .news_content_list { width:500px; margin-top:40px; }
 .news_content_listItemA { padding:5px; padding-left:20px; background-color:#e2e2e2; }
 .news_content_listItemB { padding:5px; padding-left:20px; background-color:#f7f7f7; }
 .news_content_list_date { float:left; width:100px; color:#a98e2c; }
-.news_content_list_text { float:left; width:300px; }
+.news_content_list_text { float:left; width:300px; font-size:12px; }
 
 /*案例详情*/
 .newsDetail_content { margin-top:30px; margin-bottom:90px; }
@@ -159,21 +159,21 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .search_listName { font-size:25px; color:black; margin-bottom:10px; }
 
 /*案例学习*/
-.study_content { margin-left:140px; margin-top:70px; width:1100px; overflow:hidden; margin-bottom:60px;}
-.study_box { width:240px; float:left;  margin-right:30px; margin-bottom:30px; overflow:hidden; }
+.study_content { margin-left:140px; margin-top:60px; width:1100px; overflow:hidden; margin-bottom:60px; font-size:13px;}
+.study_box { width:240px; float:left;  margin-right:30px; margin-bottom:20px; overflow:hidden; }
 .study_unread { position:relative; top:-180px; left:95px; background-image:url('../Images/unreadFlag.png'); background-repeat:no-repeat; width:80px; height:54px; padding-left:30px; padding-top:5px; }
 .study_read { position:relative; top:-180px; left:95px; background-image:url('../Images/readFlag.png'); background-repeat:no-repeat; width:80px; height:54px;  padding-left:30px; padding-top:5px;  }
-.study_box ul { margin-top:-30px; line-height:30px; }
+.study_box ul { margin-top:-40px; line-height:25px; }
 .study_hr {border-bottom:1px solid #ccc;  margin-top:10px; margin-bottom:40px; width:100%;}
 
 /*案例知识*/
 .knowledge_content { margin-left:140px; margin-top:70px; width:1100px; overflow:hidden; margin-bottom:60px; }
 .knowledge_box { width:330px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
-.knowledge_box ul { margin-top:10px; line-height:30px;  }
+.knowledge_box ul { margin-top:10px; line-height:25px;  }
 .knowledge_box_pic { border-bottom:3px solid #a78c2c; }
-.knowledge_box_title { width:280px; height: 60px; }
+.knowledge_box_title { width:280px; height: 60px; font-size:13px; }
 .knowledge_box_name { color:#888; font-style:italic; width:300px; }
-.knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:14px; padding-top:10px; padding-bottom:10px; }
+.knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:13px; padding-top:10px; padding-bottom:10px; }
 
 /*案例知识详细页*/
 .knowledgeDetail_content { margin-top:100px; margin-bottom:90px; width:800px; margin-left:auto; margin-right:auto;  }

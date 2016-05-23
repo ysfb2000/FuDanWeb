@@ -24,10 +24,10 @@
             <div class="topButton">
 
                 <ul>
-                    <li style="margin-left:40px;"><img src="Images/weibo.gif" width="40" /></li>
-                    <li style="margin-left:40px;"><img src="Images/weichat.gif" width="40" /></li>
-                    <li style="margin-left:40px;"><img src="Images/login.gif" width="40" /></li>
-                    <li style="margin-left:10px; line-height:40px;  margin-right:60px;">登录</li>
+                    <li style="margin-left:40px;"><a href="#"><img src="Images/weibo.gif" width="40" /></a></li>
+                    <li style="margin-left:40px;"><a href="#"><img src="Images/weichat.gif" width="40" /></a></li>
+                    <li style="margin-left:40px;"><a href="#"><img src="Images/login.gif" width="40" /></a></li>
+                    <li style="margin-left:10px; line-height:40px;  margin-right:60px;"><a href="#" class="whiteHref">登录</a></li>
                     <li class="clear"></li>
                 </ul>
             
@@ -40,7 +40,7 @@
         <div class="menuBar">
 
             <ul>
-                <li><a class="blackHref" href="lastestCases.html">最新入库</li>
+                <li><a class="blackHref" href="lastestCases.html">最新入库</a></li>
                 <li style="margin-left:60px;"><a class="blackHref" href="News.html">案例动态</a></li>
                 <li style="margin-left:60px;"><a class="blackHref" href="Knowledge.html">案例知识</a></li>
                 <li style="margin-left:60px;"><a class="blackHref" href="Study.html">案例学习</a></li>
@@ -59,8 +59,8 @@
                         <div>案例搜索</div>
                     </li>
                     <li style="margin-left:40px;">
-                        <div class="caseSearchDiv">
-                            <input type="text" class="caseSearchInput" />
+                        <div id="inputDiv" class="caseSearchDiv">
+                            <input type="text" class="caseSearchInput" onfocus="changeborder('#1278eb')" onblur="    changeborder('#8c8c8c')" />
                         </div>
                     </li>
                     <li style="margin-left:20px; margin-top:5px; color:#909390">高级搜索</li>
@@ -123,7 +123,7 @@
                 <div class="infoEnTitle">Case Knowledge</div>
                 <div class="infoCnTitle">案例知识</div>
                 <div class="infoPic">
-                    <div><img src="Images/home5.gif" /></div>
+                    <div><img src="Images/starbucks.png" width="340" height="231" /></div>
                 </div>
 
                 <div class="infoProject">星巴克为什么在中国卖高价</div>
@@ -164,3 +164,13 @@
     </div>
 </body>
 </html>
+
+<script>
+
+    function changeborder(color)
+    {
+        document.getElementById('inputDiv').style.borderColor = color;
+    }
+
+
+</script>
