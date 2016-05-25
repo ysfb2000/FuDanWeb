@@ -34,7 +34,7 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 
 /*菜单*/
 .menuBar { height:40px; background-color:#cec9b0; overflow:hidden; }
-.menuBar ul { margin-top:10px; margin-left:140px; }
+.menuBar ul { margin-top:12px; margin-left:140px; }
 .menuBar ul li { float:left; }
 
 /*Bottom Banner*/
