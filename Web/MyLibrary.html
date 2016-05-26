@@ -104,8 +104,39 @@
                         <li class="clear"></li>
                     </ul>
 
+                    <div id="myLibrary_hiddenOrder" style="display:none;">
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                    </div>
 
-                    <div class="myLibrary_more"><a href="#"><img src="Images/more.png" width="15" /></a></div>
+
+                    <div class="myLibrary_more"><a  id="myLibrary_hiddenOrder_more" href="javascript:void(0)；"><img src="Images/more.png" width="15" /></a></div>
                 </div>
 
                 <!--我的学习-->
@@ -143,8 +174,38 @@
                         <li class="clear"></li>
                     </ul>
 
+                    <div id="myLibrary_hiddenStudy" style="display:none;">
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li>交易成功</li>
+                            <li class="clear"></li>
+                        </ul>
+                    </div>
 
-                    <div class="myLibrary_more"><a href="#"><img src="Images/more.png" width="15" /></a></div>
+                    <div class="myLibrary_more"><a  id="myLibrary_hiddenStudy_more" href="javascript:void(0)；"><img src="Images/more.png" width="15" /></a></div>
                 </div>
 
                 <!--我的收藏-->
@@ -182,8 +243,38 @@
                         <li class="clear"></li>
                     </ul>
 
+                    <div id="myLibrary_hiddenFav" style="display:none;">
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li><button class="myLibrary_button" style="width:50px;">订购</button></li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li><button class="myLibrary_button" style="width:50px;">订购</button></li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li><button class="myLibrary_button" style="width:50px;">订购</button></li>
+                            <li class="clear"></li>
+                        </ul>
+                        <ul>
+                            <li class="myLibrary_date">2016/05/06</li>
+                            <li class="myLibrary_casename">案例名称</li>
+                            <li class="myLibrary_author">第一作者</li>
+                            <li><button class="myLibrary_button" style="width:50px;">订购</button></li>
+                            <li class="clear"></li>
+                        </ul>
+                    </div>
 
-                    <div class="myLibrary_more"><a href="#"><img src="Images/more.png" width="15" /></a></div>
+                    <div class="myLibrary_more"><a id="myLibrary_hiddenFav_more" href="javascript:void(0)；"><img src="Images/more.png" width="15" /></a></div>
                 </div>
 
             </div>
@@ -219,3 +310,24 @@
     </div>
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        $("#myLibrary_hiddenOrder_more").click(function () {
+            $("#myLibrary_hiddenOrder").slideDown("slow");
+            $(this).hide();
+        });
+
+        $("#myLibrary_hiddenStudy_more").click(function () {
+            $("#myLibrary_hiddenStudy").slideDown("slow");
+            $(this).hide();
+        });
+
+        $("#myLibrary_hiddenFav_more").click(function () {
+            $("#myLibrary_hiddenFav").slideDown("slow");
+            $(this).hide();
+        });
+
+        
+    });
+</script>
