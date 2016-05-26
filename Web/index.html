@@ -5,7 +5,9 @@
 	<meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=7" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" /> 
-
+    <script src="Js/jquery-1.12.4.min.js"></script>
+    <script src="Js/jquery-migrate-1.3.0.min.js"></script>
+    <script src="Js/Common.js"></script>
     <link href="Css/Style.css" rel="stylesheet" />
 </head>
 <body>
@@ -54,7 +56,7 @@
             <div class="mainPic_left">
 
                 <ul>
-                    <li style="margin-top:-10px;">
+                    <li style="margin-top:-3px;">
                         <div style="color:#909390">Case Search</div>
                         <div>案例搜索</div>
                     </li>
@@ -63,7 +65,7 @@
                             <input type="text" class="caseSearchInput" onfocus="changeborder('#1278eb')" onblur="    changeborder('#8c8c8c')" />
                         </div>
                     </li>
-                    <li style="margin-left:20px; margin-top:5px; color:#909390">高级搜索</li>
+                    <li style="margin-left:20px; margin-top:7px;"><a href="#" class="grayHref">高级搜索</a></li>
                     <li class="clear"></li>
                 </ul>
 
@@ -71,11 +73,13 @@
 
             <div class="mainPic_right">
                 <div class="mainPic_right_home1">
-                    <div><img src="Images/home1.jpg" /></div>
+                    <div><a href="#" class="whiteHref"><img src="Images/home1.jpg" /></a></div>
                 </div>
 
                 <div  class="mainPic_right_home2">
-                    <div><img src="Images/home2.gif" /></div>
+                    <div class="infoEnTitle"><a href="#" class="whiteHref">Case Studies</a></div>
+                    <div class="infoCnTitle"><a href="#" class="whiteHref">案例学习</a></div>
+                    <div class="infoPic"><a href="#" class="whiteHref"><img src="Images/home2.gif" /></a></div>
                 </div>
 
                 <div class="mainPic_right_home2Text">
@@ -94,41 +98,41 @@
         <div class="infoArea">
 
             <div class="infoBox">
-                <div class="infoEnTitle">Lastest Case</div>
-                <div class="infoCnTitle">最新入库</div>
+                <div class="infoEnTitle"><a href="#" class="whiteHref">Lastest Case</a></div>
+                <div class="infoCnTitle"><a href="#" class="whiteHref">最新入库</a></div>
                 <div class="infoPic">
-                    <img src="Images/home5.gif" />
-                </div>
+                    <a href="#" class="whiteHref"><img src="Images/home5.gif" /></a>
+</div>
 
-                <div class="infoProject">上海中心大厦项目管理</div>
-                <div class="infoPerson">冯天俊 周蓉</div>
-                <div class="infoText">复旦管院最新入库案例《上海中心大厦项目管理》，通过面对面访谈总承包上海建工工程师，分解建筑施工和运营风险，针对性解读超高层建筑项目管理经验。</div>
+                <div class="infoProject"><a href="#" class="whiteHref">上海中心大厦项目管理</a></div>
+                <div class="infoPerson"><a href="#" class="whiteHref">冯天俊 周蓉</a></div>
+                <div class="infoText"><a href="#" class="whiteHref">复旦管院最新入库案例《上海中心大厦项目管理》，通过面对面访谈总承包上海建工工程师，分解建筑施工和运营风险，针对性解读超高层建筑项目管理经验。</a></div>
 
             </div>
 
             <div class="infoBox">
-                <div class="infoEnTitle">News & Events</div>
-                <div class="infoCnTitle">案例动态</div>
+                <div class="infoEnTitle"><a href="#" class="whiteHref">News & Events</a></div>
+                <div class="infoCnTitle"><a href="#" class="whiteHref">案例动态</a></div>
                 <div class="infoPic">
-                    <div><img src="Images/home4.gif" /></div>
+                    <div><a href="#" class="whiteHref"><img src="Images/home4.gif" /></a></div>
                 </div>
 
-                <div class="infoProject">安邦争夺喜达屋案例跟踪</div>
-                <div class="infoPerson">鲍勇剑</div>
-                <div class="infoText">复旦管院特聘教授鲍勇剑系列观察安邦争夺收购喜达屋事件，深入解析企业全球化策略中的利益相关者理论、决策理论、兼并收购价值理论和危机管理理论。</div>
+                <div class="infoProject"><a href="#" class="whiteHref">安邦争夺喜达屋案例跟踪</a></div>
+                <div class="infoPerson"><a href="#" class="whiteHref">鲍勇剑</a></div>
+                <div class="infoText"><a href="#" class="whiteHref">复旦管院特聘教授鲍勇剑系列观察安邦争夺收购喜达屋事件，深入解析企业全球化策略中的利益相关者理论、决策理论、兼并收购价值理论和危机管理理论。</a></div>
 
             </div>
 
             <div class="infoBox">
-                <div class="infoEnTitle">Case Knowledge</div>
-                <div class="infoCnTitle">案例知识</div>
+                <div class="infoEnTitle"><a href="#" class="whiteHref">Case Knowledge</a></div>
+                <div class="infoCnTitle"><a href="#" class="whiteHref">案例知识</a></div>
                 <div class="infoPic">
-                    <div><img src="Images/starbucks.png" width="340" height="231" /></div>
+                    <div><a href="#" class="whiteHref"><img src="Images/starbucks.png" width="340" height="231" /></a></div>
                 </div>
 
-                <div class="infoProject">星巴克为什么在中国卖高价</div>
-                <div class="infoPerson">肖俊极</div>
-                <div class="infoText">店租花费和高端产品定位决定了星巴克在中国的高定价。然而，这样的定价是否合理呢？与星巴克在其他地区的定价相比，其在中国是否涉嫌“价格歧视”呢？复旦管院案例深入比较星巴克中美市场，和你一起寻找答案。</div>
+                <div class="infoProject"><a href="#" class="whiteHref">星巴克为什么在中国卖高价</a></div>
+                <div class="infoPerson"><a href="#" class="whiteHref">肖俊极</a></div>
+                <div class="infoText"><a href="#" class="whiteHref">店租花费和高端产品定位决定了星巴克在中国的高定价。然而，这样的定价是否合理呢？与星巴克在其他地区的定价相比，其在中国是否涉嫌“价格歧视”呢？复旦管院案例深入比较星巴克中美市场，和你一起寻找答案。</a></div>
 
             </div>
 

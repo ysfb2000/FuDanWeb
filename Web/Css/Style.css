@@ -7,6 +7,7 @@ li{list-style-type:none;}
 img{vertical-align:top;border:0;}
 .clear { clear:both; width:0px; height:0px;}
 .main { width:1400px; height:782px; margin:auto; }
+button {cursor:pointer;}
 
 /*超链接*/
 a.blackHref:link {text-decoration : none ;color : #000; }
@@ -24,8 +25,13 @@ a.whiteHref:visited {text-decoration : none ;color : #fff;}
 a.whiteHref:hover {text-decoration : none ;color : #fff;}
 a.whiteHref:active {text-decoration : none ;color : #fff;}
 
+a.grayHref:link {text-decoration : none ;color : #909390; }
+a.grayHref:visited {text-decoration : none ;color : #909390;}
+a.grayHref:hover {text-decoration : none ;color : #fff;}
+a.grayHref:active {text-decoration : none ;color : #909390;}
+
 /*Top Banner*/
-.topBar { background-color:#888888; height:70px; }
+.topBar { background-color:#888888; height:70px; border:none; }
 .logo1 { float:left; margin-left:60px; margin-top:15px; }
 .fudan { float:left; margin-left:30px; margin-top:20px; }
 .topButton { float:right; margin-right:20px; color:#ffffff; }
@@ -33,8 +39,8 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .topButton ul li { float:left; }
 
 /*菜单*/
-.menuBar { height:40px; background-color:#cec9b0; overflow:hidden; }
-.menuBar ul { margin-top:12px; margin-left:140px; }
+.menuBar { height:40px; background-color:#cec9b0; overflow:hidden; border:none; }
+.menuBar ul { margin-top:11px; margin-left:140px; }
 .menuBar ul li { float:left; }
 
 /*Bottom Banner*/
@@ -53,7 +59,7 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 /*标题区*/
 .mainContent {  }
 .topicArea { margin-top:60px; margin-left:140px; overflow:hidden; }
-.topicArea_box { width:10px; height:50px; background-color:#cec9b0; float:left; }
+.topicArea_box { width:10px; height:45px; background-color:#cec9b0; float:left; margin-top:5px;}
 .topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:20px; }
 .topicArea_text_en { color:#CCCCCC; }
 
@@ -66,19 +72,19 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .caseSearchInput { width:320px; height:31px; border:none; margin-top:2px; margin-left:2px; outline:none; background:none; }
 .mainPic_right { float:left; width:330px; }
 .mainPic_right_home1 { margin-left:10px; margin-top:50px; }
-.mainPic_right_home2 { margin-left:10px; margin-top:150px; }
+.mainPic_right_home2 { margin-left:10px; margin-top:100px; }
 .mainPic_right_home2Text { margin-top:30px; }
 .mainPic_right_home2Text ul li { float:left; }
 
 /*首页-信息区*/
 .infoArea { width:1400px; height:600px; background-image:url('../Images/homeBackground.jpg'); background-repeat:repeat-y; overflow:hidden; }
 .infoBox { width:350px; margin-top:50px; margin-left:100px; float:left; }
-.infoEnTitle { color:#313131; }
+.infoEnTitle { color:#ffffff; }
 .infoCnTitle { color:#ffffff; }
 .infoPic { margin-top:15px; }
 .infoProject { color:#ffffff; margin-top:15px; }
-.infoPerson { color:#313131; margin-top:5px; }
-.infoText { color:#313131; margin-top:5px; }
+.infoPerson { color:#ffffff; margin-top:5px; }
+.infoText { color:#ffffff; margin-top:5px; }
 
 /*联系我们-内容区*/
 .contactUs_content { margin-top:160px; width:500px; margin-left:auto; margin-right:auto; margin-bottom:190px; overflow:hidden;}
@@ -141,8 +147,8 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .download { overflow:hidden;}
 .download div { float:left;}
 .lastestCases_note { margin-top:30px; }
-.lastestCases_note_title { color:#a58a2c; font-size:18px; }
-.lastestCases_note_text { line-height:33px; margin-top:10px; }
+.lastestCases_note_title { color:#a58a2c; font-size:19px; }
+.lastestCases_note_text { line-height:33px; margin-top:10px; font-size:15px; }
 .lastestCases_hr { width:100%; border:1px solid #a58a2c; margin-top:60px; margin-bottom:60px; }
 
 /*案例搜索*/
@@ -190,7 +196,7 @@ a.whiteHref:active {text-decoration : none ;color : #fff;}
 .myLibrary_box { margin-bottom:40px; }
 .myLibrary_boxTitle { width:100%; border-bottom:1px solid #ccc; color:#a88d2c; padding-bottom:10px; }
 .myLibrary_box ul {padding-top:10px; overflow:hidden;}
-.myLibrary_box ul li { float:left;}
+.myLibrary_box ul li { float:left; height:15px;}
 .myLibrary_date { width:150px; }
 .myLibrary_casename { width:150px; }
 .myLibrary_author { width:400px; }
