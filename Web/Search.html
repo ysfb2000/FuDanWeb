@@ -7,8 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" /> 
     <script src="Js/jquery-1.12.4.min.js"></script>
     <script src="Js/jquery-migrate-1.3.0.min.js"></script>
+    <script src="Js/jquery-ui.min.js"></script>
     <script src="Js/Common.js"></script>
     <link href="Css/Style.css" rel="stylesheet" />
+    <link href="Css/jquery-ui.css" rel="stylesheet" />
+    <script>
+
+          $(function() {
+            $("#check").button();
+          });
+    </script> 
+
 </head>
 <body>
     <div class="main">
@@ -47,6 +56,8 @@
         <!--主内容区-->
         <div class="mainContent">
 
+            <input type="checkbox" id="check" /><label for="check"></label> 
+
             <!--标题区-->
             <div class="topicArea">
                 <div class="topicArea_box"></div>
@@ -64,7 +75,7 @@
                     </div>
                 </div>
 
-                <span style="margin-left:20px; margin-top:17px; color:#909390; float:left;">高级搜索</span>
+                <span style="margin-left:20px; margin-top:17px; color:#909390; float:left;"><a href="#" class="grayHref2">高级搜索</a></span>
 
                 <div class="clear"></div>
             </div>

@@ -31,6 +31,11 @@ a.grayHref:visited {text-decoration : none ;color : #909390;}
 a.grayHref:hover {text-decoration : none ;color : #fff;}
 a.grayHref:active {text-decoration : none ;color : #909390;}
 
+a.grayHref2:link {text-decoration : none ;color : #909390; }
+a.grayHref2:visited {text-decoration : none ;color : #909390;}
+a.grayHref2:hover {text-decoration : none ;color : #000;}
+a.grayHref2:active {text-decoration : none ;color : #909390;}
+
 /*Top Banner*/
 .topBar { background-color:#888888; height:70px; border:none; }
 .logo1 { float:left; margin-left:60px; margin-top:15px; }
@@ -71,8 +76,8 @@ a.grayHref:active {text-decoration : none ;color : #909390;}
 .mainPic_left ul li { float:left; }
 .caseSearchDiv { background-image:url('../Images/magnifier.png'); width:357px; height:35px; background-repeat:no-repeat; background-position:325px,2px; background-color:white;  border:1px solid #8c8c8c;}
 .caseSearchInput { width:320px; height:31px; border:none; margin-top:2px; margin-left:2px; outline:none; background:none; }
-.mainPic_right { float:left; width:330px; }
-.mainPic_right_home1 { margin-left:10px; margin-top:50px; }
+.mainPic_right { float:left; width:404px; overflow:hidden; height:782px; }
+.mainPic_right_home1 { margin-left:10px; margin-top:50px; margin-bottom:80px; overflow:hidden; }
 .mainPic_right_home2 { margin-left:10px; margin-top:100px; }
 .mainPic_right_home2Text { margin-top:30px; }
 .mainPic_right_home2Text ul li { float:left; }
@@ -112,7 +117,7 @@ a.grayHref:active {text-decoration : none ;color : #909390;}
 .orderDetails_button { height:30px; font-size:18px; border:none; background-color:#ddd2ab; }
 
 /*案例动态*/
-.news_content { margin-top:50px; width:400px; margin-left:450px;  margin-bottom:50px; overflow:hidden; }
+.news_content { margin-top:50px; width:400px; margin-left:auto;  margin-bottom:50px; margin-right:auto; overflow:hidden; }
 .news_content_list { width:500px; margin-top:40px; }
 .news_content_listItemA { padding:5px; padding-left:20px; background-color:#e2e2e2; }
 .news_content_listItemB { padding:5px; padding-left:20px; background-color:#f7f7f7; }
@@ -233,3 +238,26 @@ a.grayHref:active {text-decoration : none ;color : #909390;}
 .coopertation_content ul { margin-top:10px; overflow:hidden; }
 .coopertation_content ul li { float:left; }
 .coopertation_submit { background-image:url('../Images/submit.png'); width:100px; height:32px; border:none; }
+
+
+.ui-button-text-only .ui-button-text {  
+    padding: 8px;  
+}  
+.ui-state-default,  
+.ui-widget-content .ui-state-default,  
+.ui-widget-header .ui-state-default {  
+background: url(images/safari-checkbox.png) 0 0 no-repeat; border:none;  
+}  
+.ui-state-hover,  
+.ui-widget-content .ui-state-hover,  
+.ui-widget-header .ui-state-hover,  
+.ui-state-focus,  
+.ui-widget-content .ui-state-focus,  
+.ui-widget-header .ui-state-focus {  
+background: url(images/safari-checkbox.png) -16px 0 no-repeat; border:none;  
+}  
+.ui-state-active,  
+.ui-widget-content .ui-state-active,  
+.ui-widget-header .ui-state-active {  
+background: url(images/safari-checkbox.png) 0 -16px no-repeat; border:none;  
+}  

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" /> 
     <script src="Js/jquery-1.12.4.min.js"></script>
     <script src="Js/jquery-migrate-1.3.0.min.js"></script>
+    <script src="Js/jquery.nicescroll.js"></script>
     <script src="Js/Common.js"></script>
     <link href="Css/Style.css" rel="stylesheet" />
 </head>
@@ -62,7 +63,7 @@
                     </li>
                     <li style="margin-left:40px;">
                         <div id="inputDiv" class="caseSearchDiv">
-                            <input type="text" class="caseSearchInput" onfocus="changeborder('#1278eb')" onblur="    changeborder('#8c8c8c')" />
+                            <input type="text" class="caseSearchInput" onfocus="changeborder('#1278eb')" onblur="changeborder('#8c8c8c')" />
                         </div>
                     </li>
                     <li style="margin-left:20px; margin-top:7px;"><a href="#" class="grayHref">高级搜索</a></li>
@@ -71,24 +72,41 @@
 
             </div>
 
-            <div class="mainPic_right">
+            <div class="mainPic_right" id="picList">
+
                 <div class="mainPic_right_home1">
                     <div><a href="#" class="whiteHref"><img src="Images/home1.jpg" /></a></div>
                 </div>
 
-                <div  class="mainPic_right_home2">
+                <div class="mainPic_right_home1">
                     <div class="infoEnTitle"><a href="#" class="whiteHref">Case Studies</a></div>
                     <div class="infoCnTitle"><a href="#" class="whiteHref">案例学习</a></div>
                     <div class="infoPic"><a href="#" class="whiteHref"><img src="Images/home2.gif" /></a></div>
+
+                    <div class="mainPic_right_home2Text">
+                        <ul>
+                            <li style="margin-left:60px;"><a href="#"><img src="Images/jsrk.png" /></a></li>
+                            <li style="margin-left:80px;"><a href="#"><img src="Images/xsrk.png" /></a></li>
+                            <li class="clear"></li>
+                        </ul>
+                    </div>
+
                 </div>
 
-                <div class="mainPic_right_home2Text">
-                    <ul>
-                        <li style="margin-left:60px;"><a href="#"><img src="Images/jsrk.png" /></a></li>
-                        <li style="margin-left:80px;"><a href="#"><img src="Images/xsrk.png" /></a></li>
-                        <li class="clear"></li>
-                    </ul>
+
+                <div class="mainPic_right_home1">
+                    <div><a href="#" class="whiteHref"><img src="Images/home1.jpg" /></a></div>
                 </div>
+
+                <div class="mainPic_right_home1">
+                    <div><a href="#" class="whiteHref"><img src="Images/home1.jpg" /></a></div>
+                </div>
+
+                <div class="mainPic_right_home1">
+                    <div><a href="#" class="whiteHref"><img src="Images/home1.jpg" /></a></div>
+                </div>
+
+
             </div>
 
             <div class="clear"></div>
@@ -176,5 +194,13 @@
         document.getElementById('inputDiv').style.borderColor = color;
     }
 
-
+    $('#picList').niceScroll({
+        cursorcolor: "#ccc",//#CC0071 光标颜色 
+        cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0 
+        touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备 
+        cursorwidth: "25px", //像素光标的宽度 
+        cursorborder: "1", //     游标边框css定义 
+        cursorborderradius: "0px",//以像素为光标边界半径 
+        autohidemode: false //是否隐藏滚动条 
+    });
 </script>
