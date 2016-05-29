@@ -8,5 +8,9 @@
         $(this).css("position", "static");
     });
 
+    $(function () {
+        $(".squareCheckbox").button();
+    });
+
 });
 

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" /> 
     <script src="Js/jquery-1.12.4.min.js"></script>
     <script src="Js/jquery-migrate-1.3.0.min.js"></script>
+    <script src="Js/jquery-ui.min.js"></script>
     <script src="Js/Common.js"></script>
+    <link href="Css/jquery-ui.css" rel="stylesheet" />
     <link href="Css/Style.css" rel="stylesheet" />
 </head>
 <body>
@@ -79,16 +81,16 @@
                         <li class="search_criteriaTitle">年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;份:</li>
                         <li class="search_criteriaContent">
                             <ul>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2016</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2015</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2014</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2013</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2012</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2011</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2010</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2009</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2008</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />2007</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox1" /><label for="yearCheckbox1" class="lableOfCheckbox"></label>2016</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox2" /><label for="yearCheckbox2" class="lableOfCheckbox"></label>2015</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox3" /><label for="yearCheckbox3" class="lableOfCheckbox"></label>2014</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox4" /><label for="yearCheckbox4" class="lableOfCheckbox"></label>2013</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox5" /><label for="yearCheckbox5" class="lableOfCheckbox"></label>2012</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox6" /><label for="yearCheckbox6" class="lableOfCheckbox"></label>2011</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox7" /><label for="yearCheckbox7" class="lableOfCheckbox"></label>2010</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox8" /><label for="yearCheckbox8" class="lableOfCheckbox"></label>2009</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox9" /><label for="yearCheckbo9" class="lableOfCheckbox"></label>2008</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="yearCheckbox10" /><label for="yearCheckbox10" class="lableOfCheckbox"></label>2007</li>
                                 <li class="clear"></li>
                             </ul>
                         </li>
@@ -97,25 +99,25 @@
                         <li class="search_criteriaTitle">学科分类:</li>
                         <li class="search_criteriaContent">
                             <ul>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />会计</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />商业与政府关系</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />伦理与社会责任</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />经济</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />创业</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />综合管理</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />财务金融</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />人力资源</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />信息技术</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />国际商务</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />市场营销</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />谈判</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />运营与管理科学</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />组织行为</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />销售</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />服务管理</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />社会企业</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />战略</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />其他</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox1" /><label for="subjectCheckbox1" class="lableOfCheckbox"></label>会计</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox2" /><label for="subjectCheckbox2" class="lableOfCheckbox"></label>商业与政府关系</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox3" /><label for="subjectCheckbox3" class="lableOfCheckbox"></label>伦理与社会责任</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox4" /><label for="subjectCheckbox4" class="lableOfCheckbox"></label>经济</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox5" /><label for="subjectCheckbox5" class="lableOfCheckbox"></label>创业</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox6" /><label for="subjectCheckbox6" class="lableOfCheckbox"></label>综合管理</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox7" /><label for="subjectCheckbox7" class="lableOfCheckbox"></label>财务金融</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox8" /><label for="subjectCheckbox8" class="lableOfCheckbox"></label>人力资源</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox9" /><label for="subjectCheckbox9" class="lableOfCheckbox"></label>信息技术</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox10" /><label for="subjectCheckbox10" class="lableOfCheckbox"></label>国际商务</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox11" /><label for="subjectCheckbox11" class="lableOfCheckbox"></label>市场营销</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox12" /><label for="subjectCheckbox12" class="lableOfCheckbox"></label>谈判</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox13" /><label for="subjectCheckbox13" class="lableOfCheckbox"></label>运营与管理科学</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox14" /><label for="subjectCheckbox14" class="lableOfCheckbox"></label>组织行为</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox15" /><label for="subjectCheckbox15" class="lableOfCheckbox"></label>销售</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox16" /><label for="subjectCheckbox16" class="lableOfCheckbox"></label>服务管理</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox17" /><label for="subjectCheckbox17" class="lableOfCheckbox"></label>社会企业</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox18" /><label for="subjectCheckbox18" class="lableOfCheckbox"></label>战略</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="subjectCheckbox19" /><label for="subjectCheckbox19" class="lableOfCheckbox"></label>其他</li>
                                 <li class="clear"></li>
                             </ul>
                         </li>
@@ -125,12 +127,12 @@
                         <li class="search_criteriaTitle">适应对象:</li>
                         <li class="search_criteriaContent">
                             <ul>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />全部</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />本科</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />MBA</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />其它研究生</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />高层管理人员</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />EMBA</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox1" /><label for="objectCheckbox1" class="lableOfCheckbox"></label>全部</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox2" /><label for="objectCheckbox2" class="lableOfCheckbox"></label>本科</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox3" /><label for="objectCheckbox3" class="lableOfCheckbox"></label>MBA</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox4" /><label for="objectCheckbox4" class="lableOfCheckbox"></label>其它研究生</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox5" /><label for="objectCheckbox5" class="lableOfCheckbox"></label>高层管理人员</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="objectCheckbox6" /><label for="objectCheckbox6" class="lableOfCheckbox"></label>EMBA</li>
                                 <li class="clear"></li>
                             </ul>
                         </li>
@@ -139,11 +141,11 @@
                         <li class="search_criteriaTitle">案例类型:</li>
                         <li class="search_criteriaContent">
                             <ul>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />全部</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />现场案例</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />改编案例</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />阅读文章</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />其他</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="caseCheckbox1" /><label for="caseCheckbox1" class="lableOfCheckbox"></label>全部</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="caseCheckbox2" /><label for="caseCheckbox2" class="lableOfCheckbox"></label>现场案例</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="caseCheckbox3" /><label for="caseCheckbox3" class="lableOfCheckbox"></label>改编案例</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="caseCheckbox4" /><label for="caseCheckbox4" class="lableOfCheckbox"></label>阅读文章</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="caseCheckbox5" /><label for="caseCheckbox5" class="lableOfCheckbox"></label>其他</li>
                                 <li class="clear"></li>
                             </ul>
                         </li>
@@ -152,8 +154,8 @@
                         <li class="search_criteriaTitle">来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源:</li>
                         <li class="search_criteriaContent">
                             <ul>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />全部</li>
-                                <li class="search_criteria_li"><input type="checkbox" class="checkBox" />复旦大学管理学院 </li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="soruceCheckbox1" /><label for="soruceCheckbox1" class="lableOfCheckbox"></label>全部</li>
+                                <li class="search_criteria_li"><input type="checkbox" class="checkBox squareCheckbox" id="soruceCheckbox2" /><label for="soruceCheckbox2" class="lableOfCheckbox"></label>复旦大学管理学院 </li>
                                 <li class="clear"></li>
                             </ul>
                         </li>

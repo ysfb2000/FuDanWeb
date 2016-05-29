@@ -107,7 +107,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .orderDetails_money { font-size:18px; margin-left:5px; }
 .orderDetails_class { margin-top:8px; float:left; color:#6b6a6a; *margin-top:-15px; }
 .orderDetails_class_li { margin-top:8px; float:left; margin-left:10px; color:#6b6a6a; *margin-top:-15px; }
-.orderDetails_class_li li {float:left; margin-right:10px;}
+.orderDetails_class_li li {float:left; margin-right:4px;}
 .orderDetails_className { color:#6b6a6a; float:left; margin-top:28px; }
 .orderDetails_underline { color:#6b6a6a; margin-top:28px; border-bottom:1px solid #868686; float:left; width:500px; height:22px; }
 .orderDetails_bill { color:#6b6a6a; float:left; margin-top:8px; }
@@ -228,7 +228,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .submission_text { margin-top:60px; margin-left:auto; margin-right:auto;  line-height:28px; }
 .submission_content ul { margin-top:30px; overflow:hidden; }
 .submission_content ul li { float:left; }
-.submission_icon { width:30px; text-align:center; margin-right:5px; }
+.submission_icon { width:30px; text-align:center; margin-right:5px;}
 
 /*我要合作*/
 .coopertation_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
@@ -239,25 +239,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .coopertation_content ul li { float:left; }
 .coopertation_submit { background-image:url('../Images/submit.png'); width:100px; height:32px; border:none; }
 
-
-.ui-button-text-only .ui-button-text {  
-    padding: 8px;  
-}  
-.ui-state-default,  
-.ui-widget-content .ui-state-default,  
-.ui-widget-header .ui-state-default {  
-background: url(images/safari-checkbox.png) 0 0 no-repeat; border:none;  
-}  
-.ui-state-hover,  
-.ui-widget-content .ui-state-hover,  
-.ui-widget-header .ui-state-hover,  
-.ui-state-focus,  
-.ui-widget-content .ui-state-focus,  
-.ui-widget-header .ui-state-focus {  
-background: url(images/safari-checkbox.png) -16px 0 no-repeat; border:none;  
-}  
-.ui-state-active,  
-.ui-widget-content .ui-state-active,  
-.ui-widget-header .ui-state-active {  
-background: url(images/safari-checkbox.png) 0 -16px no-repeat; border:none;  
-}  
+.ui-corner-all { border-radius:unset; }
+.ui-state-default {border:1px solid black; background:none;}
+.ui-state-active {background-color:black;}
+.lableOfCheckbox {width:12px; margin-top:-3px; margin-right:8px; height:12px;}
