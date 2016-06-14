@@ -6,9 +6,10 @@ ol,ul {list-style:none;}
 li{list-style-type:none;}
 img{vertical-align:top;border:0;}
 .clear { clear:both; width:0px; height:0px;}
-.main { width:1000px; height:563px; margin:auto; }
+.main { width:1000px; margin:auto; overflow:hidden; }
 button {cursor:pointer;}
 .authorName { font-style:italic;}
+.fixCenter {width:1000px; margin:auto;}
 
 /*超链接*/
 a.blackHref:link {text-decoration : none ;color : #000; }
@@ -64,7 +65,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 /*标题区*/
 .mainContent {  }
-.topicArea { margin-top:60px; margin-left:140px; overflow:hidden; }
+.topicArea { margin-top:60px; margin-left:122px; overflow:hidden; }
 .topicArea_box { width:10px; height:45px; background-color:#cec9b0; float:left; margin-top:5px;}
 .topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:20px; }
 .topicArea_text_en { color:#CCCCCC; font-weight:100; }
@@ -100,7 +101,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .contactUs_content div { float:left; }
 
 /*订单详情*/
-.orderDetails_content { border:2px solid #e1e1e1; width:600px; margin-left:auto; margin-right:auto; margin-top:30px; padding:35px; margin-bottom:50px;  }
+.orderDetails_content { border:2px solid #e1e1e1; width:682px; margin-left:auto; margin-right:auto; margin-top:30px; padding:35px; margin-bottom:50px;  }
 .orderDetails_ul { font-size:18px; overflow:hidden; }
 .orderDetails_pic { border:5px solid #a78c2c; }
 .orderDetails_case { margin-top:30px; float:left; }
@@ -127,29 +128,29 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .news_content_list_text { float:left; width:300px; font-size:12px; }
 
 /*案例详情*/
-.newsDetail_content { margin-top:30px; margin-bottom:90px; }
-.newsDetail_title { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto;  text-align:center; width:600px; }
-.newsDetail_date { font-size:14px; margin-left:auto; margin-right:auto; text-align:center; margin-top:10px; width:600px; }
-.newsDetail_hr { border-bottom:1px solid #ccc; margin-left:auto; margin-right:auto; margin-top:20px; width:600px; }
-.newsDetail_hr2 { border-bottom:1px solid #ccc; margin-left:auto; margin-right:auto; margin-top:0px; width:600px; }
-.newsDetail_text { width:600px; margin-left:auto; margin-right:auto; line-height:30px; padding:30px;  text-align:justify; text-justify:inter-ideograph}
+.newsDetail_content {margin:auto; margin-top:50px; margin-bottom:90px; width:755px;  }
+.newsDetail_title { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto;  text-align:center; }
+.newsDetail_date { font-size:14px; margin-left:auto; margin-right:auto; text-align:center; margin-top:10px; }
+.newsDetail_hr { border-bottom:1px solid #ccc; margin-left:auto; margin-right:auto; margin-top:20px;  }
+.newsDetail_hr2 { border-bottom:1px solid #ccc; margin-left:auto; margin-right:auto; margin-top:0px;  }
+.newsDetail_text {  margin-left:auto; margin-right:auto; line-height:30px; padding:30px;  text-align:justify; text-justify:inter-ideograph}
 .newsDetail_text p { text-indent: 2em; }
-.newsDetail_text_pic { margin-top:30px; width:600px; text-align:center; margin-bottom:30px; }
+.newsDetail_text_pic { margin-top:30px;  text-align:center; margin-bottom:30px; }
 .newsDetail_text_picText { margin-top:10px; }
-.newsDetail_other { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto; margin-top:80px; width:600px; }
-.newsDetail_other_left { font-size:20px; color:#a78c2c; margin-top:80px; width:600px; }
-.newsDetail_content ul { margin-left:auto; margin-right:auto; margin-top:20px; width:600px; line-height:30px; }
+.newsDetail_other { font-size:20px; color:#a78c2c; margin-left:auto; margin-right:auto; margin-top:80px;  }
+.newsDetail_other_left { font-size:20px; color:#a78c2c; margin-top:80px; }
+.newsDetail_content ul { margin-left:auto; margin-right:auto; margin-top:20px;  line-height:30px; }
 
 /*最新案例*/
 .lastestCases_block { margin-bottom:80px;}
-.lastestCases_content { margin-left:140px; margin-top:70px; width:1100px; }
-.lastestCases_infoLeft { width:800px; float:left; }
+.lastestCases_content { margin-left:122px; margin-top:70px; width:1000px; }
+.lastestCases_infoLeft { width:650px; float:left; }
 .lastestCases_title { font-size:24px; color:black; }
 .lastestCases_author { margin-top:10px; font-style:italic; }
 .lastestCases_info { width:1100px; margin-top:50px; overflow:hidden; font-size:18px; color:#6b6a6a; }
 .lastestCases_ul { margin-top:40px; line-height:30px; }
 .lastestCases_infoItem { float:left; width:100px; }
-.lastestCases_infoValue { float:left; width:300px; }
+.lastestCases_infoValue { float:left; width:200px; }
 .lastestCases_ul2 { margin-top:40px; line-height:30px; width:600px; overflow:hidden; font-size:18px; color:#6b6a6a;}
 .lastestCases_infoItem2 { float:left; width:100px; }
 .lastestCases_infoItem2 ul li { float:left;}
@@ -164,7 +165,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .lastestCases_hr { width:100%; border:1px solid #a58a2c; margin-top:60px; margin-bottom:60px; }
 
 /*案例搜索*/
-.search_content { margin-left:140px; margin-top:70px; width:1100px; margin-bottom: 80px; }
+.search_content { margin-left:122px; margin-top:70px; width:755px; margin-bottom: 80px; }
 .search_criteriaTitle { float:left; width:100px; color:#a58a2c; margin-bottom:30px; }
 .search_criteriaContent { float:left; width:990px;  margin-bottom:30px; line-height:25px;}
 .checkBox {margin-top:5px;}
@@ -178,8 +179,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .search_listName { font-size:25px; color:black; margin-bottom:10px; }
 
 /*案例学习*/
-.study_content { margin-left:140px; margin-top:60px; width:1100px; overflow:hidden; margin-bottom:60px; font-size:13px;}
-.study_box { width:240px; float:left;  margin-right:30px; margin-bottom:20px; overflow:hidden; }
+.study_content { margin-left:122px; margin-top:60px; width:900px; overflow:hidden; margin-bottom:60px; font-size:13px;}
+.study_box { width:200px; float:left;  margin-right:20px; margin-bottom:20px; overflow:hidden; }
 .study_unread { position:relative; top:-180px; left:95px; background-image:url('../Images/unreadFlag.png'); background-repeat:no-repeat; width:80px; height:54px; padding-left:30px; padding-top:5px; }
 .study_read { position:relative; top:-180px; left:95px; background-image:url('../Images/readFlag.png'); background-repeat:no-repeat; width:80px; height:54px;  padding-left:30px; padding-top:5px;  }
 .study_box ul { margin-top:-40px; line-height:25px; }
@@ -187,8 +188,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 
 /*案例知识*/
-.knowledge_content { margin-left:140px; margin-top:70px; width:1100px; overflow:hidden; margin-bottom:60px; }
-.knowledge_box { width:330px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
+.knowledge_content { margin-left:122px; margin-top:70px; width:1000px; overflow:hidden; margin-bottom:60px; }
+.knowledge_box { width:272px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
 .knowledge_box ul { margin-top:10px; line-height:25px;  }
 .knowledge_box_pic { border-bottom:3px solid #a78c2c; }
 .knowledge_box_title { width:280px; height: 60px; font-size:13px; }
@@ -196,7 +197,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:13px; padding-top:10px; padding-bottom:10px; }
 
 /*案例知识详细页*/
-.knowledgeDetail_content { margin-top:100px; margin-bottom:90px; width:800px; margin-left:auto; margin-right:auto;  }
+.knowledgeDetail_content { margin-top:100px; margin-bottom:90px; width:755px; margin-left:auto; margin-right:auto;  }
 .knowledgeDetail_text_pic { width:600px; margin-bottom:30px; }
 .knowledgeDetail_title { font-size:30px; color:#a88d2c; margin-top:80px; }
 .knowledgeDetail_author { font-size:20px; color:#6b6a6a; font-style:italic; margin-top:10px; margin-bottom:40px; }
@@ -208,14 +209,14 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .studyDetail_Pic {border:3px solid #a78c2c;}
 
 /*个人中心*/
-.myLibrary_content { margin-top:100px; margin-bottom:90px; width:800px; margin-left:auto; margin-right:auto;  }
+.myLibrary_content { margin-top:100px; margin-bottom:90px; width:755px; margin-left:auto; margin-right:auto;  }
 .myLibrary_box { margin-bottom:40px; }
 .myLibrary_boxTitle { width:100%; border-bottom:1px solid #ccc; color:#a88d2c; padding-bottom:10px; }
 .myLibrary_box ul {padding-top:10px; overflow:hidden;}
 .myLibrary_box ul li { float:left; height:15px;}
 .myLibrary_date { width:150px; }
 .myLibrary_casename { width:150px; }
-.myLibrary_author { width:400px; }
+.myLibrary_author { width:350px; }
 .myLibrary_more { text-align:right; margin-top:20px; margin-right:60px; }
 .myLibrary_button { width:50px; height:23px; border:none; background-color:#ddd2ab; line-height:23px; }
 
