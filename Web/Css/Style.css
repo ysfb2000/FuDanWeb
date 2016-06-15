@@ -38,7 +38,7 @@ a.grayHref2:hover {text-decoration : none ;color : #000;}
 a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 /*Top Banner*/
-.topBar { background-color:#888888; height:50px; border-bottom:1px solid black; }
+.topBar { background-color:#888888; height:50px; }
 .logo1 { float:left; margin-left:60px; margin-top:5px; }
 .fudan { float:left; margin-left:10px; margin-top:15px; width:221px; height:23px; overflow:hidden; }
 .topButton { float:right; margin-right:20px; color:#ffffff; }
@@ -51,8 +51,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .menuBar ul li { float:left; }
 
 /*Bottom Banner*/
-.bottomBanner { background-color:#888888; border:1px solid #6d6d6d; height:58px; border-top:1px solid black; }
-.bottomBanner_logo { float:left; width:132px; margin-top:11px; margin-left:32px; }
+.bottomBanner { background-color:#888888; height:58px; }
+.bottomBanner_logo { float:left; width:152px; margin-top:11px; margin-left:32px; }
 .bottomBanner_logo ul li { float:left; }
 .bottomBanner_text { float:left; margin-top:11px; font-size:13px; margin-left:33px;}
 .bottomBanner_text ul { color:#fff; height:21px; }
@@ -78,7 +78,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .caseSearchDiv { background-image:url('../Images/magnifier.png'); width:357px; height:35px; background-repeat:no-repeat; background-position:325px 4px; background-color:white;  border:1px solid #8c8c8c;}
 .caseSearchInput { width:348px; height:31px; border:none; margin-top:2px; margin-left:2px; outline:none; background:none; }
 .mainPic_right { float:left; width:312px; overflow:hidden; height:1029px; background-image:url('../Images/right-bg.jpg'); background-repeat:no-repeat; }
-.mainPic_right_home1 { margin-left:25px; margin-top:52px; margin-bottom:52px; overflow:hidden; width:243px; }
+.mainPic_right_home1 { margin-left:25px; margin-top:52px;  overflow:hidden; width:243px; }
 .mainPic_right_home2 { margin-left:25px; margin-top:100px; }
 .mainPic_right_home2Text { margin-top:20px; }
 .mainPic_right_home2Text ul li { float:left; }
