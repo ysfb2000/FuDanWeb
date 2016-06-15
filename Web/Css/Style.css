@@ -47,8 +47,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 /*菜单*/
 .menuBar { height:24px; background-color:#cec9b0; overflow:hidden; border:none; }
-.menuBar ul { margin-top:2px; margin-left:120px; }
-.menuBar ul li { float:left; }
+.menuBar ul {  margin-left:120px; }
+.menuBar ul li { float:left; line-height:24px; }
 
 /*Bottom Banner*/
 .bottomBanner { background-color:#888888; height:58px; }
