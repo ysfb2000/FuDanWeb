@@ -67,7 +67,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .mainContent {  }
 .topicArea { margin-top:60px; margin-left:122px; overflow:hidden; }
 .topicArea_box { width:10px; height:45px; background-color:#cec9b0; float:left; margin-top:5px;}
-.topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:20px; }
+.topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:18px; }
 .topicArea_text_en { color:#CCCCCC; font-weight:100; }
 
 /*首页-主图区*/
@@ -117,7 +117,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .orderDetails_total { float:right; margin-top:30px; color:#a78c2c; font-size:14px; }
 .orderDetails_text { float:right; margin-top:30px; margin-right:50px; font-size:14px; color:#a78c2c; line-height:24px; }
 .orderDetails_buttonArea { margin-left:auto; margin-right:auto; width:180px; margin-top:50px; }
-.orderDetails_button { height:30px; font-size:18px; border:none; background-color:#ddd2ab; }
+.orderDetails_button { height:30px; font-size:14px; border:none; background-color:#ddd2ab; }
 
 /*案例动态*/
 .news_content { margin-top:50px; width:400px; margin-left:auto;  margin-bottom:50px; margin-right:auto; overflow:hidden; }
@@ -179,8 +179,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .search_listName { font-size:25px; color:black; margin-bottom:10px; }
 
 /*案例学习*/
-.study_content { margin-left:122px; margin-top:60px; width:900px; overflow:hidden; margin-bottom:60px; font-size:13px;}
-.study_box { width:200px; float:left;  margin-right:20px; margin-bottom:20px; overflow:hidden; }
+.study_content { margin-left:122px; margin-top:60px; width:878px; overflow:hidden; margin-bottom:60px; font-size:13px;}
+.study_box { width:200px; float:left;  margin-right:19px; margin-bottom:20px; overflow:hidden; }
 .study_unread { position:relative; top:-180px; left:95px; background-image:url('../Images/unreadFlag.png'); background-repeat:no-repeat; width:80px; height:54px; padding-left:30px; padding-top:5px; }
 .study_read { position:relative; top:-180px; left:95px; background-image:url('../Images/readFlag.png'); background-repeat:no-repeat; width:80px; height:54px;  padding-left:30px; padding-top:5px;  }
 .study_box ul { margin-top:-40px; line-height:25px; }
