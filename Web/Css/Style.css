@@ -143,15 +143,15 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 /*最新案例*/
 .lastestCases_block { margin-bottom:80px;}
-.lastestCases_content { margin-left:122px; margin-top:70px; width:756px; }
+.lastestCases_content { margin-left:122px; margin-top:46px; width:756px; }
 .lastestCases_infoLeft { width:600px; float:left; }
 .lastestCases_title { font-size:24px; color:black; }
 .lastestCases_author { margin-top:10px; font-style:italic; }
-.lastestCases_info { width:878px; margin-top:50px; overflow:hidden; font-size:18px; color:#6b6a6a; }
-.lastestCases_ul { margin-top:40px; line-height:30px; }
+.lastestCases_info { width:878px; margin-top:50px; overflow:hidden; font-size:14px; color:#6b6a6a; }
+.lastestCases_ul { margin-top:20px; line-height:25px; }
 .lastestCases_infoItem { float:left; width:90px; }
 .lastestCases_infoValue { float:left; width:180px; }
-.lastestCases_ul2 { margin-top:40px; line-height:30px; width:600px; overflow:hidden; font-size:18px; color:#6b6a6a;}
+.lastestCases_ul2 { margin-top:40px; line-height:22px; width:600px; overflow:hidden; font-size:14px; color:#6b6a6a;}
 .lastestCases_infoItem2 { float:left; width:100px; }
 .lastestCases_infoItem2 ul li { float:left;}
 .keyWordsFontStyle { color:#a58a2c; font-style:italic; }
@@ -161,7 +161,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .download div { float:left;}
 .lastestCases_note { margin-top:30px; }
 .lastestCases_note_title { color:#a58a2c; font-size:19px; }
-.lastestCases_note_text { line-height:33px; margin-top:10px; font-size:15px; text-align:justify; }
+.lastestCases_note_text { line-height:22px; margin-top:10px; font-size:13px; text-align:justify; }
 .lastestCases_hr { width:100%; border:1px solid #a58a2c; margin-top:60px; margin-bottom:60px; }
 
 /*案例搜索*/
