@@ -236,7 +236,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 /*我要合作*/
 .coopertation_content { margin-top:100px; margin-bottom:100px; width:500px; margin-left:auto; margin-right:auto;  }
 .coopertation_title { width: 80px; }
-.coopertation_input { width: 400px;}
+.coopertation_input { width: 400px; margin-top:-4px;}
 .coopertation_inputStyle { border:none; border-bottom:1px solid black; width:100%; height:20px; font-size:16px; }
 .coopertation_content ul { margin-top:10px; overflow:hidden; }
 .coopertation_content ul li { float:left; }
