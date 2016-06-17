@@ -68,7 +68,8 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .topicArea { margin-top:60px; margin-left:122px; overflow:hidden; }
 .topicArea_box { width:10px; height:45px; background-color:#cec9b0; float:left; }
 .topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:18px; }
-.topicArea_text_en { color:#CCCCCC; font-weight:100; line-height:18px; margin-bottom:5px; }
+.topicArea_text_en { color:#000; font-weight:100; line-height:18px; margin-bottom:5px; font-family:Arial; font-size:15px; }
+.topicArea_text_cn { color:#000; font-size:16px; }
 
 /*首页-主图区*/
 .mainPic { background-image:url('../Images/mainPic.jpg'); overflow:hidden; }
@@ -106,13 +107,13 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .orderDetails_pic { border:5px solid #a78c2c; }
 .orderDetails_case { margin-top:30px; float:left; }
 .orderDetails_price { margin-top:30px; float:right; font-size:14px; color:#a78c2c; }
-.moneyMark { font-size:12px; margin-left:5px; }
-.orderDetails_money { font-size:18px; margin-left:5px; }
+.orderDetails_moneyMark { margin-left:10px; }
+.orderDetails_money { font-size:18px;  }
 .orderDetails_class { margin-top:8px; float:left; color:#6b6a6a; *margin-top:-15px; }
 .orderDetails_class_li { margin-top:8px; float:left; margin-left:10px; color:#6b6a6a; *margin-top:-15px; }
 .orderDetails_class_li li {float:left; margin-right:4px;}
 .orderDetails_className { color:#6b6a6a; float:left; margin-top:28px; }
-.orderDetails_underline { color:#6b6a6a; margin-top:28px; border-bottom:1px solid #868686; float:left; width:500px; height:22px; }
+.orderDetails_underline { color:#6b6a6a; border:none; border-bottom:1px solid #868686; float:left; width:500px; height:22px; }
 .orderDetails_bill { color:#6b6a6a; float:left; margin-top:8px; }
 .orderDetails_total { float:right; margin-top:30px; color:#a78c2c; font-size:14px; }
 .orderDetails_text { float:right; margin-top:30px; margin-right:50px; font-size:14px; color:#a78c2c; line-height:24px; }
@@ -165,17 +166,18 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .lastestCases_hr { width:100%; border:1px solid #a58a2c; margin-top:60px; margin-bottom:60px; }
 
 /*案例搜索*/
-.search_content { margin-left:122px; margin-top:70px; width:755px; margin-bottom: 80px; }
-.search_criteriaTitle { float:left; width:100px; color:#a58a2c; margin-bottom:30px; }
-.search_criteriaContent { float:left; width:990px;  margin-bottom:30px; line-height:25px;}
+.search_content { margin-left:122px; margin-top:60px; width:755px; margin-bottom: 80px; }
+.search_criteriaTitle { float:left; width:70px; color:#a58a2c; margin-bottom:15px; }
+.search_criteriaContent { float:left;  margin-bottom:30px; line-height:25px;}
+.search_criteriaContent ul { width:685px;}
 .checkBox {margin-top:5px;}
 .search_list { overflow:hidden; }
 .search_listDetail { float:right; margin-right:5px;}
-.search_criteria_li {float:left; margin-right: 30px;}
+.search_criteria_li {float:left; margin-right: 20px;}
 .search_result { width:100%; text-align:center; margin-top:30px; margin-bottom:50px; }
 .search_listBox { border-bottom:1px solid #020202; padding-left:30px; padding-bottom:10px; margin-bottom:30px; overflow:hidden; }
 .search_book { float:left; padding-top:5px; }
-.search_listContent { float:left; width:500px; margin-left:20px; color:#7f7e7e; line-height:30px; }
+.search_listContent { float:left; width:500px; margin-left:20px; color:#7f7e7e; line-height:25px; }
 .search_listName { font-size:25px; color:black; margin-bottom:10px; }
 
 /*案例学习*/
@@ -202,22 +204,22 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .knowledgeDetail_title { font-size:30px; color:#a88d2c; margin-top:80px; }
 .knowledgeDetail_author { font-size:20px; color:#6b6a6a; font-style:italic; margin-top:10px; margin-bottom:40px; }
 .knowledgeDetail_hr { width:100%; border-bottom:1px solid #ccc; }
-.knowledgeDetail_text { margin-left:auto; margin-right:auto; line-height:30px; padding:15px; color:#0e050a; text-align:justify; text-justify:inter-ideograph}
+.knowledgeDetail_text { margin-left:auto; margin-right:auto; line-height:30px; padding-top:15px; padding-bottom:15px; color:#0e050a; text-align:justify; text-justify:inter-ideograph}
 .knowledgeDetail_other { font-size:20px; color:#a78c2c;  margin-top:50px;  }
 .knowledgeDetail_content ul {  margin-top:10px;  line-height:30px; }
 #aboutConent a{margin-left:15px;}
 .studyDetail_Pic {border:3px solid #a78c2c;}
 
 /*个人中心*/
-.myLibrary_content { margin-top:100px; margin-bottom:90px; width:755px; margin-left:auto; margin-right:auto;  }
-.myLibrary_box { margin-bottom:40px; }
+.myLibrary_content { margin-top:50px; margin-bottom:90px; width:755px; margin-left:auto; margin-right:auto;  }
+.myLibrary_box { margin-bottom:20px; }
 .myLibrary_boxTitle { width:100%; border-bottom:1px solid #ccc; color:#a88d2c; padding-bottom:10px; }
 .myLibrary_box ul {padding-top:10px; overflow:hidden;}
-.myLibrary_box ul li { float:left; height:15px;}
+.myLibrary_box ul li { float:left; }
 .myLibrary_date { width:150px; }
 .myLibrary_casename { width:150px; }
 .myLibrary_author { width:350px; }
-.myLibrary_more { text-align:right; margin-top:20px; margin-right:60px; }
+.myLibrary_more { text-align:right; margin-top:15px; margin-right:70px; }
 .myLibrary_button { width:50px; height:23px; border:none; background-color:#ddd2ab; line-height:23px; }
 
 /*关于我们*/
@@ -243,6 +245,6 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .coopertation_submit { background-image:url('../Images/submit.png'); width:100px; height:32px; border:none; }
 
 .ui-corner-all { border-radius:unset; }
-.ui-state-default {border:1px solid black; background:none;}
+.ui-state-default {border:1px solid black; background:none; -webkit-border-radius: 0px;   /* Webkit browsers */}
 .ui-state-active {background-color:black;}
-.lableOfCheckbox {width:12px; margin-top:-3px; margin-right:8px; height:12px;}
+.lableOfCheckbox {width:12px; margin-top:-3px; margin-right:3px; height:12px;}
