@@ -65,7 +65,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 /*标题区*/
 .mainContent {  }
-.topicArea { margin-top:60px; margin-left:122px; overflow:hidden; }
+.topicArea { margin-top:45px; margin-left:122px; overflow:hidden; }
 .topicArea_box { width:10px; height:45px; background-color:#cec9b0; float:left; }
 .topicArea_text { width:200px; height:50px; float:left; margin-left:10px; font-size:18px; }
 .topicArea_text_en { color:#000; font-weight:100; line-height:18px; margin-bottom:5px; font-family:Arial; font-size:15px; }
@@ -104,7 +104,7 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 /*订单详情*/
 .orderDetails_content { border:2px solid #e1e1e1; width:682px; margin-left:auto; margin-right:auto; margin-top:30px; padding:35px; margin-bottom:50px;  }
 .orderDetails_ul { font-size:18px; overflow:hidden; }
-.orderDetails_pic { border:5px solid #a78c2c; }
+.orderDetails_pic { border:3px solid #a78c2c; }
 .orderDetails_case { margin-top:30px; float:left; }
 .orderDetails_price { margin-top:30px; float:right; font-size:14px; color:#a78c2c; }
 .orderDetails_moneyMark { margin-left:10px; }
@@ -176,9 +176,9 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .search_criteria_li {float:left; margin-right: 20px;}
 .search_result { width:100%; text-align:center; margin-top:30px; margin-bottom:50px; }
 .search_listBox { border-bottom:1px solid #020202; padding-left:30px; padding-bottom:10px; margin-bottom:30px; overflow:hidden; }
-.search_book { float:left; padding-top:5px; }
+.search_book { float:left; }
 .search_listContent { float:left; width:500px; margin-left:20px; color:#7f7e7e; line-height:25px; }
-.search_listName { font-size:25px; color:black; margin-bottom:10px; }
+.search_listName { font-size:18px; color:black; margin-bottom:10px; }
 
 /*案例学习*/
 .study_content { margin-left:122px; margin-top:60px; width:878px; overflow:hidden; margin-bottom:60px; font-size:13px;}
@@ -190,21 +190,22 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 
 
 /*案例知识*/
-.knowledge_content { margin-left:122px; margin-top:70px; width:1000px; overflow:hidden; margin-bottom:60px; }
-.knowledge_box { width:272px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
+.knowledge_content { margin-left:122px; margin-top:46px; width:878px; overflow:hidden; margin-bottom:40px; }
+.knowledge_box { width:242px; float:left;  margin-right:30px; margin-bottom:60px; overflow:hidden;  }
 .knowledge_box ul { margin-top:10px; line-height:25px;  }
 .knowledge_box_pic { border-bottom:3px solid #a78c2c; }
-.knowledge_box_title { width:280px; height: 60px; font-size:13px; }
-.knowledge_box_name { color:#888; font-style:italic; width:300px; }
-.knowledge_box_text { width:300px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:13px; padding-top:10px; padding-bottom:10px; }
+.knowledge_box_title { width:242px; height: 40px; font-size:13px; line-height:18px; }
+.knowledge_box_name { color:#888; font-style:italic; width:242px; }
+.knowledge_box_text { width:242px; height:150px; border-bottom:1px solid #a78c2c; border-top:1px solid #a78c2c; font-size:13px; padding-top:10px; padding-bottom:10px; }
 
 /*案例知识详细页*/
-.knowledgeDetail_content { margin-top:100px; margin-bottom:90px; width:755px; margin-left:auto; margin-right:auto;  }
+.knowledgeDetail_content { margin-top:46px; margin-bottom:50px; width:755px; margin-left:auto; margin-right:auto;  }
 .knowledgeDetail_text_pic { width:600px; margin-bottom:30px; }
-.knowledgeDetail_title { font-size:30px; color:#a88d2c; margin-top:80px; }
-.knowledgeDetail_author { font-size:20px; color:#6b6a6a; font-style:italic; margin-top:10px; margin-bottom:40px; }
+.knowledgeDetail_title { font-size:25px; color:#a88d2c; margin-top:50px; }
+.knowledgeDetail_author { font-size:20px; color:#6b6a6a; font-style:italic; margin-top:10px; margin-bottom:20px; }
 .knowledgeDetail_hr { width:100%; border-bottom:1px solid #ccc; }
-.knowledgeDetail_text { margin-left:auto; margin-right:auto; line-height:30px; padding-top:15px; padding-bottom:15px; color:#0e050a; text-align:justify; text-justify:inter-ideograph}
+.knowledgeDetail_text { margin-left:auto; margin-right:auto; line-height:24px; padding-top:15px; padding-bottom:15px; color:#0e050a; text-align:justify; text-justify:inter-ideograph}
+.knowledgeDetail_text p { text-indent:2em; }
 .knowledgeDetail_other { font-size:20px; color:#a78c2c;  margin-top:50px;  }
 .knowledgeDetail_content ul {  margin-top:10px;  line-height:30px; }
 #aboutConent a{margin-left:15px;}
