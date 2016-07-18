@@ -150,13 +150,13 @@ a.grayHref2:active {text-decoration : none ;color : #909390;}
 .lastestCases_author { margin-top:10px; font-style:italic; }
 .lastestCases_info { width:878px; margin-top:50px; overflow:hidden; font-size:14px; color:#6b6a6a; }
 .lastestCases_ul { margin-top:20px; line-height:25px; }
-.lastestCases_infoItem { float:left; width:90px; }
-.lastestCases_infoValue { float:left; width:180px; }
+.lastestCases_infoItem { float:left; width:90px; height:25px;}
+.lastestCases_infoValue { float:left; width:180px;  height:25px;}
 .lastestCases_ul2 { margin-top:40px; line-height:22px; width:600px; overflow:hidden; font-size:14px; color:#6b6a6a;}
 .lastestCases_infoItem2 { float:left; width:100px; }
 .lastestCases_infoItem2 ul li { float:left;}
 .keyWordsFontStyle { color:#a58a2c; font-style:italic; }
-.lastestCases_infoValue2 { float:left; width:500px; }
+.lastestCases_infoValue2 { float:left; width:500px;  }
 .lastestCases_infoRight { width:176px; float:left; }
 .download { overflow:hidden;}
 .download div { float:left;}
